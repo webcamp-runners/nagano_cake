@@ -27,8 +27,8 @@ ActiveRecord::Schema.define(version: 2021_01_18_090338) do
     t.integer "price"
     t.string "image_id"
     t.boolean "is_active"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "updated_at"
+    t.datetime "created_at"
   end
 
 end
